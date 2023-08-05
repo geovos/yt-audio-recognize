@@ -5,8 +5,24 @@
 
 - Downloads a YT Video based on a user provided URL
 - Keeps metrics provided by YT-API
+  - video_id
+  - channel_id
+  - title (song)
+  - channel_title
+  - tags
+  - view_count
+  - like_count
+  - favorite_count
+  - comment_count
 - Extracts the audio out of the video
 - Shazams the extracted audio to receive Metadata
+  - track_title
+  - track_subtitle
+  - track_url
+  - isrc
+  - primary_genre
+  - url_params_track_title (original track title)
+  - url_params_track_artist (track artist)
 - Returns YT-API Metrics + Shazam Metadata as a response to the user
 - Stores the related Metadata in PSQL
 - Stores the related Metadata in .csv
