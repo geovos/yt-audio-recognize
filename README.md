@@ -29,6 +29,7 @@
 
 # Requirements 
  Before you begin, add your key in `YT_API` variable inside `docker-compose.yml`
+ https://github.com/geovos/yt-audio-recognize/blob/master/docker-compose.yml
 
 ## Start this project
 
